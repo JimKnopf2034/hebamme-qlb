@@ -5,11 +5,23 @@ body{
 
 .seiten-headline h2{
 	margin-bottom: 20px;
-	color: #8B96A3;
+	color: #2c3e50;
 }
 
 .seiten-text p{
 	font-size: 120%;
+}
+
+.impressum-text p{
+	font-size: 120%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.impressum-text h3{
+	text-align: center;
+	font-size: 180%;
+	font-weight: bold;
 }
 
 .text-geseier p{
@@ -26,4 +38,8 @@ body{
 
 .text-geseier blockquote:before{
 	content: '---  '
+}
+
+.offseted-form{
+	margin-top: 50px;
 }
