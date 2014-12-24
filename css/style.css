@@ -1,0 +1,71 @@
+body{
+	background-color: #FFCF7D;
+	#  ; EDD080
+}
+
+.seiten-headline h2{
+	margin-bottom: 20px;
+	color: #2c3e50;
+}
+
+.seiten-text p{
+	font-size: 120%;
+}
+
+.impressum-text p{
+	font-size: 120%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.impressum-text h3{
+	text-align: center;
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.text-geseier p{
+	font-size: 110%;
+	font-style: italic;
+}
+
+.text-geseier blockquote{
+	border: 0px;
+	float: right;
+	font-size: 100%;
+	font-style: italic;
+}
+
+.text-geseier blockquote:before{
+	content: '---  '
+}
+
+.offseted-form{
+	margin-top: 50px;
+}
+
+.table td{
+	font-size: 120%
+}
+
+
+.table th{
+	background-color: #2c3e50;
+	color: #bdc3c7;
+	font-size: 130%;
+}
+
+.table td:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+
+.btn-primary{
+	background-color: #2c3e50;
+	border: 0px solid #2c3e50;
+}
+
+.btn-primary:hover{
+	background-color: #bdc3c7;
+	color: #2c3e50;
+	}

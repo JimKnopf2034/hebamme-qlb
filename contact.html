@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<HTML>
+
+  <head>
+    <title>Veronika Wilms | Ihre Hebamme in Quedlinburg</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
+  </head>
+
+  <body>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" >
+
+      <div class="container">
+
+	<a href="Index.html" class="navbar-brand">Hebamme Veronika Wilms</a>
+
+	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+
+	<div class="collapse navbar-collapse navHeaderCollapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li > <a href="index.html">Home</a></li>
+	    <li class="dropdown">
+
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Angebote<b class="caret"></b></a>
+	      <ul class="dropdown-menu">
+		<li><a href="geburtsvorbereitung.html">Geburtsvorbereitung</a></li>
+		<li><a href="rueckbildung.html">Rückbildung</a></li>
+		<li><a href="schwangerschaft.html">Schwangerschaftsbegleitung</a></li>
+		<li><a href="trageberatung.html">Trageberatung</a></li>
+		<li><a href="wochenbett.html">Wochenbett</a></li>
+	      </ul>
+
+	    </li>
+
+	    <li> <a href="kurse.html">Kurse</a></li>
+	    <li> <a href="about.html">Über mich</a></li>
+	    <li class="active"> <a href="contact.html">Kontakt</a></li>
+	    <li> <a href="impressum.html">Impressum</a></li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+
+    <div class=".container-fluid">
+    	<div class="row">
+            <div class="col-xs-12 col-md-9 col-md-offset-3 seiten-headline">
+                <h3>
+                    Kontakt
+                </h3>
+            </div>
+    		<div class="col-xs-0 col-md-2 col-md-offset-1 hidden-xs hidden-sm">
+                <p><img src="img/content/Rueckbildung.JPG" alt="Rückbildungskurse in Quedlinburg finden sie bei mir" class="img-responsive"></p>
+            </div>
+
+    		<div class="col-xs-10 col-md-6 seiten-text">
+
+    			<p>
+                    Nicht direkt fündig geworden?
+                </p>
+
+                <p>     Schreiben sie mir doch eine Nachricht, ich werde mich
+                dann bei Ihnen melden. <em>Tipp:</em> Hinterlassen sie mir doch
+                einfach ihre Telefonnummer, dann kann ich sie auch anrufen. </p>
+
+
+    			<!-- Bootstrap style form-->
+    			<form action="mail_handler.php" class="form-horizontal offseted-form" role="form" method="post">
+    				<div class="form-group">
+            			<label for="inputName" class="control-label col-xs-2">Name</label>
+            			<div class="col-xs-10">
+                			<input type="text" class="form-control" id="inputName" placeholder="Name">
+            			</div>
+        			</div>
+
+        			<div class="form-group">
+            			<label for="inputEmail" class="control-label col-xs-2">Email</label>
+            			<div class="col-xs-10">
+                			<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            			</div>
+        			</div>
+
+
+        			<div class="form-group">
+            			<label for="textField" class="control-label col-xs-2"></label>
+            			<div class="col-xs-10">
+                			<textarea class="form-control" rows="5" id="textField" placeholder="Nachricht"></textarea>
+            			</div>
+        			</div>
+
+        			<div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button type="submit" class="btn btn-primary">Senden!</button>
+            </div>
+        </div>
+    			</form>
+
+
+    		</div>
+
+    	</div>
+    </div>
+
+  </body>
+
+</HTML>
