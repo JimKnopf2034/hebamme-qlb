@@ -29,6 +29,11 @@ body{
 	font-style: italic;
 }
 
+.text-geseier a{
+	color:#FFF;
+	font-style:italic;
+}
+
 .text-geseier blockquote{
 	border: 0px;
 	float: right;

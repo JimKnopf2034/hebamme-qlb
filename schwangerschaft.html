@@ -8,6 +8,22 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet" >
+		<script type="text/javascript" language="JavaScript" charset="utf-8">
+			function toggleMe(a){
+				var e = document.getElementById(a);
+				if (!e)return true;
+				if(e.id=="long-geseier"){
+					b = document.getElementById("short-geseier");
+					e.style.display = "block";
+					b.style.display = "none";
+				}else{
+				b = document.getElementById("long-geseier");
+				e.style.display = "block";
+				b.style.display = "none";
+			}
+			return true;
+			}
+		</script>
 	</head>
 
 	<body>
@@ -32,11 +48,11 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Angebote<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="geburtsvorbereitung.html">Geburtsvorbereitung</a></li>
-								<li><a href="rueckbildung.html">Rückbildung</a></li>
 								<li class="active"><a href="schwangerschaft.html">Schwangerschaftsbegleitung</a></li>
-								<li><a href="trageberatung.html">Trageberatung</a></li>
+								<li><a href="geburtsvorbereitung.html">Geburtsvorbereitung</a></li>
 								<li><a href="wochenbett.html">Wochenbett</a></li>
+								<li><a href="trageberatung.html">Trageberatung</a></li>
+								<li><a href="rueckbildung.html">Rückbildung</a></li>
 							</ul>
 
 						</li>
@@ -84,6 +100,14 @@
 				</div>
 
 				<div class="col-xs-12 col-sm-12 col-md-3 col-md-push-3 text-geseier">
+
+					<div id="short-geseier" style="display:block">
+						<h3>Leben</h3>
+						<p>Wann hat es angefangen? Ist da etwas in mir oder doch nur ich? Habe ich etwas gemacht,
+							macht mein Körper etwas mit mir oder ist da doch etwas in mir?</p>
+							<a onclick="return toggleMe('long-geseier')" id="einblenden" href="javascript:void(0)">mehr</a>
+					</div>
+					<div id="long-geseier" style="display:none">
 					<h3>Leben</h3>
 					<p>Wann hat es angefangen? Ist da etwas in mir oder doch nur ich? Habe ich etwas gemacht,
 						macht mein Körper etwas mit mir oder ist da doch etwas in mir?</p>
@@ -113,8 +137,12 @@
 					</p>
 					<p>
 						Ich blicke zurück auf die letzten 9 Monate und merke ich bin dem Leben selbst begegnet.
+						<blockquote>p.v.d. 2014</blockquote>
 					</p>
-					<blockquote>p.v.d. 2014</blockquote>
+
+						<a onclick="return toggleMe('short-geseier')" href="javascript:void(0)">weniger</a>
+
+				</div>
 				</div>
 
 				<div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-9">
