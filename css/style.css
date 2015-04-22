@@ -11,6 +11,14 @@ body{
 .seiten-text p{
 	font-size: 120%;
 }
+.seiten-text li{
+	font-size: 120%;
+}
+
+.seiten-text a{
+	font-weight: bold;
+	color: #FFF;
+}
 
 .impressum-text p{
 	font-size: 120%;
